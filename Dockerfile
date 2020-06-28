@@ -4,5 +4,5 @@ FROM prom/prometheus:latest
   "--storage.tsdb.path=/prometheus"
   "--web.console.libraries=/usr/share/prometheus/console_libraries"
   "--web.console.templates=/usr/share/prometheus/consoles"
-  "--storage.tsdb.retention.size=1TB"
+  "--storage.tsdb.retention.size=10GB"
   ]
